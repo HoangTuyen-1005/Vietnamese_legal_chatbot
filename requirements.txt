@@ -1,11 +1,13 @@
+sentence-transformers
 huggingface_hub
 ctransformers
 transformers
 langchain
 langchain-community
+langchain-core
+langchain_huggingface
+langchain_text_splitters
+langchain_classic
 torch
 pypdf
-sentence-transformers
-gpt4all
 faiss-cpu
-openai

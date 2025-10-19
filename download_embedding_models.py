@@ -1,9 +1,8 @@
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="caliex/all-MiniLM-L6-v2-f16.gguf",
-    allow_patterns=["*.gguf"],
-    local_dir="models",
+    repo_id="sentence-transformers/all-MiniLM-L6-v2",
+    local_dir="models/all-MiniLM-L6-v2",
 )
 
-print("Embedding model downloaded to ./models")
+print("Embedding model downloaded to ./models/models/all-MiniLM-L6-v2")
